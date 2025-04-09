@@ -125,11 +125,7 @@ x = t3
 ----------------------------
  program.asm generated successfully.
 
- --- Compiler Summary Stats ---
- Compiled in: 0.0843s  
- Total Tokens: 13  
- Functions Used: SIGMOID  
- Variables Defined: x  
+
 
 
 #### Option B: Batch Mode (input from input.sage)
@@ -165,13 +161,8 @@ program.exe
 ### 🎯 5. Output Options
 
 #### ✅ Option 1: Command Line Output
+x = 62.0000
 
-To print the result to the terminal:
-- Use the built-in interpreter inside `main.cpp`.
-- It prints something like:
-  ```
-  x = 0.9999
-  ```
 
 #### ✅ Option 2: Windows MessageBox
 
@@ -182,12 +173,11 @@ The generated `program.exe` will show a MessageBox with your result
 
  compiler even gives a summary like this:
 
-```yaml
-Compiled in: 0.19s
-Total Tokens: 12
-Functions Used: SIGMOID
-Variables Defined: x, b
-```
+ --- Compiler Summary Stats ---
+ Compiled in: 0.0843s  
+ Total Tokens: 13  
+ Functions Used: SIGMOID  
+ Variables Defined: x  
 
 ---
 
