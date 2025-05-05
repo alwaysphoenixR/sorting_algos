@@ -1,0 +1,33 @@
+/*
+================== SORTING ALGORITHMS ==================
+1. Bubble Sort        -> Best: O(n)       Avg: O(n^2)      Worst: O(n^2)
+2. Selection Sort     -> Best: O(n^2)     Avg: O(n^2)      Worst: O(n^2)
+3. Insertion Sort     -> Best: O(n)       Avg: O(n^2)      Worst: O(n^2)
+4. Merge Sort         -> Best: O(n log n) Avg: O(n log n)  Worst: O(n log n)
+5. Quick Sort         -> Best: O(n log n) Avg: O(n log n)  Worst: O(n^2)
+6. Heap Sort          -> Best: O(n log n) Avg: O(n log n)  Worst: O(n log n)
+7. Counting Sort      -> Best: O(n + k)   Avg: O(n + k)    Worst: O(n + k)
+8. Radix Sort         -> Best: O(nk)      Avg: O(nk)       Worst: O(nk)
+9. Bucket Sort        -> Best: O(n + k)   Avg: O(n + k)    Worst: O(n^2)
+
+================== DYNAMIC PROGRAMMING / GREEDY ==================
+1. 0/1 Knapsack        -> Best: O(nW)          Avg/Worst: O(nW)
+2. Fractional Knapsack -> Best/Worst: O(n log n) (Greedy, sorting)
+3. Matrix Multiplication (Chain) -> Best/Worst: O(n^3)
+4. Longest Increasing Subseq. -> Best: O(n log n) Avg/Worst: O(n^2)
+5. Travelling Salesman (DP+Bitmask) -> Best/Worst: O(n^2 * 2^n)
+
+================== TREE OPERATIONS ==================
+1. BST Search/Insert/Delete -> Best: O(log n)     Avg: O(log n)      Worst: O(n)
+2. Red-Black Tree            -> Best: O(log n)     Avg: O(log n)      Worst: O(log n)
+
+================== GRAPH ALGORITHMS ==================
+1. BFS (Adj List)         -> Best/Average/Worst: O(V + E)
+2. DFS (Adj List)         -> Best/Average/Worst: O(V + E)
+3. Topological Sort (Kahn) -> Best/Average/Worst: O(V + E)
+4. Prim’s Algorithm (Min-Heap) -> Best/Average/Worst: O(E log V)
+5. Kruskal’s Algorithm     -> Best/Average/Worst: O(E log E)
+6. Dijkstra (Min-Heap)     -> Best/Average/Worst: O((V + E) log V)
+7. Bellman-Ford            -> Best/Average/Worst: O(VE)
+8. Floyd-Warshall          -> Best/Average/Worst: O(V^3)
+*/
